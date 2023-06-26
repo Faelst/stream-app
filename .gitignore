@@ -1,2 +1,3 @@
 .expo/web/cache/development
 .env
+.DS_Store
