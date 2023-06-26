@@ -49,7 +49,7 @@ function AuthProvider({ children }: AuthProviderData) {
     try {
       setIsLoggingIn(true);
 
-      const CLIENT_ID = 'tw7mv3ss2dedn8gz5j2fnj4venfqe9';
+      const CLIENT_ID = '';
       const REDIRECT_URI = makeRedirectUri({ useProxy: true });
       const RESPONSE_TYPE = 'token';
       const SCOPE = encodeURI('openid user:read:email user:read:follows');
